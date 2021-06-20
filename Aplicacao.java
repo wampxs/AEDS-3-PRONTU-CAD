@@ -140,6 +140,7 @@ class MetaFile{
 // CabecalhoCliente: Classe para o cabeçalho do arquivo principal.
 // qtd = Quantidade de clientes, qtdAlloc = Quantidade de clientes alocados (inclui deletados), 
 // descTam = tamanho da descrição, nextDel = próximo registro deletado a ser sobrescrito (se == 0, não há)
+// lastDel = último registro que foi deletado
 class CabecalhoCliente{
 	private int qtd;
 	private int qtdAlloc;
