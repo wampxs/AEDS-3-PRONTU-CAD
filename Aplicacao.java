@@ -15,7 +15,6 @@ import java.lang.Math;
 // Classe para comportar o caminho dos arquivos do sistema.
 class DIR{
 	static String PATH = System.getProperty("user.dir") + "\\703267\\";
-	static String PATH2 = "E:\\Users\\Douglas\\Documents\\Visual Studio 2017\\703267\\";
 }
 // Lápide: Objeto que armazena o estado atual do cliente (Deletado ou não), 
 // assim como o próximo cliente deletado (Lista encadeada para indicar os próximos registros deletados a serem sobrescritos)
